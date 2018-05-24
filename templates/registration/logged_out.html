@@ -1,0 +1,7 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+{#    Выход по ссылке http://127.0.0.1:8000/accounts/logout/#}
+    <p style="margin-top: 20px">Logged out!</p>
+    <a href="{% url "login" %}">Click here to login again.</a>
+{% endblock %}
